@@ -171,8 +171,8 @@
             //  `featured` = '$featured',
             //  `active` = '$active'
             //   ";
-            $sql2="INSERT INTO `t_featured-models` (`title`,`description`,`price`,`image_name`,`gift_package_id`,`featured`,`active`)
-VALUES ('qwer',"$description","$price", "$image_name","$gift_package_id","$featured","$active");";
+            $sql2="INSERT INTO `t_featured-models` (`title`,`description`,`price`,`image_name`,`gift-package_id`,`featured`,`active`)
+VALUES ('qwer',"$description","$price", "$image_name","$gift-package_id","$featured","$active");";
 
               
                 $res2 = mysqli_query($conn, $sql2);
